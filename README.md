@@ -6,7 +6,7 @@
     ![](screenshot/create_project_1.png)
     ![](screenshot/create_project_2.png)
     ![](screenshot/create_project_3.png)  
-    创建完之后项目目录结构如下
+    创建完之后项目目录结构如下  
     ![](screenshot/create_project_4.png) 
     编辑gradle.build文件
 ```groovy
