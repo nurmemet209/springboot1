@@ -158,7 +158,9 @@ spring.datasource.password=""
  ![](screenshot/create_project_10.png)   
  ![](screenshot/create_project_11.png)   
  ![](screenshot/create_project_12.png)   
- ![](screenshot/create_project_13.png)   
+ ![](screenshot/create_project_13.png) 
+  设置完之后每次修改源码就不需要重启Tomcat，代码会自动部署（有些修改还是需要重启）
+  
  
 
 
