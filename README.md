@@ -116,6 +116,54 @@ public class SampleApplication extends SpringBootServletInitializer {
 ```
 
 
+```jsp
+<%--
+  Created by IntelliJ IDEA.
+  User: Administrator
+  Date: 1/17/2017
+  Time: 6:04 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>jsp</title>
+</head>
+<body>
+this is message:${msg}
+</body>
+</html>
+```
+```properties
+#jsp路径配置
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
+application.message=Hello Phil
+
+
+
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+spring.datasource.url=""
+spring.datasource.username=""
+spring.datasource.password=""
+```
+之后点击war进行打包  
+![](screenshot/create_project_5.png)  
+此时build--libs目录下会生成war文件,如图  
+![](screenshot/create_project_6.png)  
+创建tomcat服务器  
+![](screenshot/create_project_7.png)  
+ ![](screenshot/create_project_8.png)   
+ ![](screenshot/create_project_9.png)   
+ ![](screenshot/create_project_10.png)   
+ ![](screenshot/create_project_11.png)   
+ ![](screenshot/create_project_12.png)   
+ ![](screenshot/create_project_13.png)   
+ 
+
+
+
+
 
 
 
